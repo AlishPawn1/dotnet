@@ -30,14 +30,14 @@ class DotNet
         // Definite.run();
         // Factorial.run();
         // Precedence.run();
-        // Param.run();
+        Param.run();
         // exercise_eight.run();
         // exercise_nine.run();
         // exercise_seven.run();
         // exercise_six.run();
         // Selection.run();
         // Iteration.run();
-        Jump.run();
+        // Jump.run();
     }
 }
 

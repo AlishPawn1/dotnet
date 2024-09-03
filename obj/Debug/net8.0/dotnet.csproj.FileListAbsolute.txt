@@ -12,3 +12,4 @@ C:\Users\alish\Downloads\js-and-extra-class\dotnet\obj\Debug\net8.0\refint\dotne
 C:\Users\alish\Downloads\js-and-extra-class\dotnet\obj\Debug\net8.0\dotnet.pdb
 C:\Users\alish\Downloads\js-and-extra-class\dotnet\obj\Debug\net8.0\dotnet.genruntimeconfig.cache
 C:\Users\alish\Downloads\js-and-extra-class\dotnet\obj\Debug\net8.0\ref\dotnet.dll
+C:\Users\alish\Downloads\js-and-extra-class\dotnet\obj\Debug\net8.0\dotnet.sourcelink.json

@@ -32,6 +32,9 @@ public static class Jump{
             Console.Write(count + " ");
             count++;
         }
+
+        // throw new ArithmeticException("New exception encountered");
+        
         Console.WriteLine();
         ProcessNumber();
         System.Console.WriteLine();

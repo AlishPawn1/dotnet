@@ -21,7 +21,7 @@ public static class RectangularArray {
         System.Console.WriteLine("Elements in numbers list:");
         for(int i = 0; i< numbers.GetLength(0);i++){
             for(int j = 0; j < numbers.GetLength(1);j++){
-                System.Console.WriteLine(numbers[i,j] + " ");
+                System.Console.Write(numbers[i,j] + " ");
             }
             System.Console.WriteLine();
         }
