@@ -50,31 +50,46 @@ public class Param{
         return sum;
     }
 
-    // private static void MajorMultiplication(params int[] numbers){
-    //     // int[] result;
-    //     foreach (int number in numbers){
-    //         System.Console.Write("the multiple of " + number + " is : ");
-
-    //         for(int i=1 ; i <= 5 ; i++){
-    //             System.Console.Write(number * i + " ");
-    //         }
-    //         System.Console.WriteLine();
-    //     }
-    // }
-
     private static void MajorMultiplication(params int[] numbers){
-    int[,] result = new int[numbers.Length, 5];
+        // int[] result;
+        System.Console.WriteLine("enter the number time you want to multiple:");
+        // string total_calculate = Console.ReadLine() ?? string.Empty;
 
-    for(int i = 0; i < numbers.Length; i++){
-        System.Console.Write($"Multiplication of {numbers[i]} is: ");
-        
-        for(int j = 0; j < 5; j++){
-            result[i, j] = numbers[i] * (j + 1);
-            System.Console.Write(result[i, j] + " ");
+        // int total_calculate;
+
+        bool number_c = int.TryParse(Console.ReadLine(), out int total_calculate);
+        System.Console.WriteLine(number_c);
+        if(number_c){
+            foreach (int number in numbers){
+                System.Console.Write("the multiple of " + number + " is : ");
+
+                for(int i=1 ; i <= total_calculate ; i++){
+                    System.Console.Write(number * i + " ");
+                }
+                System.Console.WriteLine();
+            }
         }
-
-        System.Console.WriteLine();
+        else{
+            System.Console.WriteLine("Error Value Found");
+        }
     }
-}
+
+    // private static void MajorMultiplication(params int[] numbers){
+    // System.Console.WriteLine("enter the number time you want to multiple:");
+    // int total_calculate = Convert.ToInt32(Console.Read());
+    // int[,] result = new int[numbers.Length, 5];
+
+
+    // for(int i = 0; i < numbers.Length; i++){
+    //     System.Console.Write($"Multiplication of {numbers[i]} is: ");
+        
+    //     for(int j = 0; j < total_calculate; j++){
+    //         result[i, j] = numbers[i] * (j + 1);
+    //         System.Console.Write(result[i, j] + " ");
+    //     }
+
+    //     System.Console.WriteLine();
+    // }
+    // }
 
 }
