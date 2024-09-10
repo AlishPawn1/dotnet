@@ -8,6 +8,7 @@ using dotnet.src.SessionTwo.AppDefault;
 using dotnet.src.SessionTwo.AppStack;
 using dotnet.src.exercise;
 using dotnet.src.SessionTwo.Appcontrol;
+using dotnet.src.SessionThree.AppClass;
 
 class DotNet
 {
@@ -30,7 +31,7 @@ class DotNet
         // Definite.run();
         // Factorial.run();
         // Precedence.run();
-        Param.run();
+        // Param.run();
         // exercise_eight.run();
         // exercise_nine.run();
         // exercise_seven.run();
@@ -38,6 +39,8 @@ class DotNet
         // Selection.run();
         // Iteration.run();
         // Jump.run();
+        // RunAppClass.RunMusic();
+        RunAppClass.RunUser();
     }
 }
 

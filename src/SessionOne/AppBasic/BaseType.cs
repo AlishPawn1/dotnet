@@ -12,7 +12,8 @@ namespace dotnet.src.SessionOne.AppBasic
 
             DateTime currentTime = DateTime.Now;
 
-            const string firstName = "rachana";
+
+            const string firstName = "Jone";
 
             Console.WriteLine("the sum is :" + sum);
             Console.WriteLine("the name is :" + firstName.ToLower());
