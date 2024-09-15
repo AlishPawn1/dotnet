@@ -16,6 +16,7 @@ public static class Jump{
         for(int i = 0; i < numbers.Length; i++){
             if(numbers[i] > 10){
                 System.Console.WriteLine($"Number greater than 10 found : {numbers[i]}");
+                System.Console.WriteLine(age);
                 break;
             }
             System.Console.WriteLine($"Number {numbers[i]} at index {i}");
