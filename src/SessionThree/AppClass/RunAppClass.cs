@@ -55,5 +55,27 @@ namespace dotnet.src.SessionThree.AppClass{
             System.Console.WriteLine(point.X);
             System.Console.WriteLine(point.Y);
         }
+
+        // MathUtil
+
+        public static void RunMathUtil(){
+            MathUtil math = new();
+            math.CalculateArea(5);
+            System.Console.WriteLine(math.CalculateArea(5));
+        }
+
+        // AccessModifier
+
+        public static void RunAccessibility(){
+            Derived derivedclass = new();
+            derivedclass.checkInfo();
+
+            Magatron starscrem = new();
+            starscrem.checkIsAuthenticated();
+        }
     }
+}
+
+namespace dotnet.src.SessionThree.AppInterface{
+    
 }
