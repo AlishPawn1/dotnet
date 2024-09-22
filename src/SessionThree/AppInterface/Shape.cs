@@ -1,15 +1,16 @@
 using System;
+
 namespace dotnet.src.SessionThree.AppInterface
 {
     public interface IShapeArea
     {
-        // only method signature, abstract by default
-        public double getArea();
+        // Only method signature, abstract by default
+        double getArea();
     }
 
     public interface IShapeDraw
     {
-        public void getPosition();
+        void getPosition();
     }
 
     // Multiple inheritance
@@ -32,35 +33,45 @@ namespace dotnet.src.SessionThree.AppInterface
     public class Circle : CommonShape
     {
         // Fields
-        public double Radius;
-        private string _name = "Circle";
+        private double radius = 10; // Fixed the case for 'radius'
+        private string name = "Circle"; 
 
         // Property with accessors
         public override string Name
         {
-            get { return _name; }
-            set { _name = value; }
+            get { return name; }
+            set { name = value; } // Corrected '_name' to 'name'
         }
 
+        // Added the Radius property correctly
+        public double Radius
+        {
+            get { return radius; }
+            set { radius = value; }
+        }
+
+        // Overriding getArea method
         public override double getArea()
         {
-            double area = Math.PI * Radius * Radius;
+            double area = Math.PI * radius * radius;
             return Math.Round(area, 2);
         }
 
+        // Overriding getPosition method
         public override void getPosition()
         {
-            System.Console.WriteLine($"/-----drawing a {Name}-----/");
+            Console.WriteLine($"/-----drawing a {Name}-----/");
         }
     }
 
     public static class ShapeManager
     {
+        // Method to print shape info
         public static void PrintShapeInfo(CommonShape shape)
         {
             shape.getPosition();
-            System.Console.WriteLine($"Shape Name: {shape.Name}");
-            System.Console.WriteLine($"Area: {shape.getArea()}");
+            Console.WriteLine($"Shape Name: {shape.Name}");
+            Console.WriteLine($"Area: {shape.getArea()}");
         }
     }
 }

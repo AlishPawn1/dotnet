@@ -50,6 +50,18 @@ namespace dotnet.src.SessionThree.AppClass{
             System.Console.WriteLine($"Name : {this.name} \nGender : {this.gender} \nAge : {this.age}");
         }
 
+        // method overloading same name difrent paramater
+        public void add(int a){
+            int result = a + a;
+            System.Console.WriteLine($"the value in int float is {result}");
+        }
+
+        public void add(int a, int b){
+            float result = a + b;
+            System.Console.WriteLine($"the value in float int is {result}");
+        }
+        
+
         ~User(){
             System.Console.WriteLine("User class is destoryed");
         }

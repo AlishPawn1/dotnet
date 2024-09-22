@@ -30,6 +30,9 @@ namespace dotnet.src.SessionThree.AppClass{
             // user.name = "alish";
             // user.age = 21;
             // user.gender = "male";
+
+            user.add(10);
+            user.add(10, 5);
         }
 
         public static void RunStudentIndexer(){
@@ -73,6 +76,8 @@ namespace dotnet.src.SessionThree.AppClass{
             Magatron starscrem = new();
             starscrem.checkIsAuthenticated();
         }
+
+
     }
 }
 
