@@ -10,6 +10,7 @@ using dotnet.src.exercise;
 using dotnet.src.SessionTwo.Appcontrol;
 using dotnet.src.SessionThree.AppClass;
 using dotnet.src.SessionThree.AppInterface;
+using dotnet.src.SessionThree.AppPoly;
 
 class DotNet
 {
@@ -41,12 +42,13 @@ class DotNet
         // Iteration.run();
         // Jump.run();
         // RunAppClass.RunMusic();
-        RunAppClass.RunUser();
+        // RunAppClass.RunUser();
         // RunAppClass.RunStudentIndexer();
         // RunAppClass.RunPointStruct();
         // RunAppClass.RunMathUtil();
         // RunAppClass.RunAccessibility();
         // RunAppInterface.RunShape();
+        RunPoly.runOperatorOverloading();
     }
 }
 
