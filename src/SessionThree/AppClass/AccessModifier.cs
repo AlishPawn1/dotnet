@@ -8,7 +8,7 @@ public class Optimus{
     public void PublicMethod(){ System.Console.WriteLine("Public method");}
 
     // private member are only accessible in the same class
-    private int privateField = 15;
+    // private int privateField = 15;
     private void privateMethod(){ System.Console.WriteLine("private method");}
 
     // internal member are accessibale within the same assembly (project)

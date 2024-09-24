@@ -11,6 +11,7 @@ using dotnet.src.SessionTwo.Appcontrol;
 using dotnet.src.SessionThree.AppClass;
 using dotnet.src.SessionThree.AppInterface;
 using dotnet.src.SessionThree.AppPoly;
+using dotnet.src.LabReport;
 
 class DotNet
 {
@@ -48,7 +49,11 @@ class DotNet
         // RunAppClass.RunMathUtil();
         // RunAppClass.RunAccessibility();
         // RunAppInterface.RunShape();
-        RunPoly.runOperatorOverloading();
+        // RunPoly.runOperatorOverloading();
+        // Lab1.run();
+        RunPoly.runCasting();
+
+
     }
 }
 

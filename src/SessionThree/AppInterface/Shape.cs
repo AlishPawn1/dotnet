@@ -16,7 +16,7 @@ namespace dotnet.src.SessionThree.AppInterface
     // Multiple inheritance
     public abstract class CommonShape : IShapeArea, IShapeDraw
     {
-        private int id;
+        private int id = 2;
 
         public abstract string Name { get; set; }
 
@@ -26,6 +26,10 @@ namespace dotnet.src.SessionThree.AppInterface
         public int getId()
         {
             return this.id;
+        }
+
+        public virtual void message(){
+            Console.WriteLine("Hello, World!");
         }
     }
 
@@ -62,6 +66,9 @@ namespace dotnet.src.SessionThree.AppInterface
         {
             Console.WriteLine($"/-----drawing a {Name}-----/");
         }
+        // public override void message(){
+        //     Console.WriteLine("Hello virtual");
+        // }
     }
 
     public static class ShapeManager

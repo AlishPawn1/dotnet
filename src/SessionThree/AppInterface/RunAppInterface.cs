@@ -5,7 +5,8 @@ public static class RunAppInterface{
     public static void RunShape() {
         Circle ball = new();
         ball.Radius = 10;
-        ball.Name = "aakash";
+        ball.Name = "random";
+        ball.message();
 
         ShapeManager.PrintShapeInfo(ball);
 
