@@ -51,7 +51,8 @@ class DotNet
         // RunAppInterface.RunShape();
         // RunPoly.runOperatorOverloading();
         // Lab1.run();
-        RunPoly.runCasting();
+        Lab2.run();
+        // RunPoly.runCasting();
 
 
     }
