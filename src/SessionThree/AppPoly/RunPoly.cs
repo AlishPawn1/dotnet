@@ -96,6 +96,8 @@ public  class RunPoly{
         queue.Enqueue(10);
         queue.Enqueue(20);
         queue.Enqueue(30);
+        queue.Enqueue(40);
+        queue.Enqueue(50);
 
         // peek at the front element without removing it
         Console.WriteLine($"Front element: {queue.Peek()}");
