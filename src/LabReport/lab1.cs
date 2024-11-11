@@ -13,8 +13,8 @@ namespace dotnet.src.LabReport
             Console.ReadLine();
 
             Console.WriteLine("Enter a line of text: ");
-            string inputLine = Console.ReadLine();
-            Console.WriteLine("You entered: " + inputLine);
+            // string inputLine = Console.ReadLine();
+            // Console.WriteLine("You entered: " + inputLine);
 
             Console.Write("This text ");
             Console.Write("is printed ");

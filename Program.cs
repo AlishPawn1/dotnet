@@ -12,6 +12,9 @@ using dotnet.src.SessionThree.AppClass;
 using dotnet.src.SessionThree.AppInterface;
 using dotnet.src.SessionThree.AppPoly;
 using dotnet.src.LabReport;
+using dotnet.src.SessionFour.AppDelegate;
+using dotnet.src.SessionFour.AppException;
+
 
 class DotNet
 {
@@ -55,7 +58,11 @@ class DotNet
         // RunPoly.runCasting();
         // RunPoly.runStack();
         // RunPoly.runDictionary();
-        RunPoly.runQueue();
+        // RunPoly.runQueue();
+        // RunDelegate.RunSimpleDelegate();
+        // RunDelegate.RunFuncDelegate();
+        AppTryCatch.ZeroDevision();
+        AppTryCatch.CheckRange();
     }
 }
 
