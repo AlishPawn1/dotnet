@@ -14,6 +14,7 @@ using dotnet.src.SessionThree.AppPoly;
 using dotnet.src.LabReport;
 using dotnet.src.SessionFour.AppDelegate;
 using dotnet.src.SessionFour.AppException;
+using dotnet.src.SessionFour.AppLinq;
 
 
 class DotNet
@@ -61,8 +62,10 @@ class DotNet
         // RunPoly.runQueue();
         // RunDelegate.RunSimpleDelegate();
         // RunDelegate.RunFuncDelegate();
-        AppTryCatch.ZeroDevision();
-        AppTryCatch.CheckRange();
+        // AppTryCatch.ZeroDevision();
+        // AppTryCatch.CheckRange();
+        // ArrayLinq.CheckEven();
+        ArrayLinq.GroupName();
     }
 }
 
