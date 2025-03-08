@@ -44,7 +44,7 @@ class DotNet
         // exercise_seven.run();
         // exercise_six.run();
         // Selection.run();
-        // Iteration.run();
+        Iteration.run();
         // Jump.run();
         // RunAppClass.RunMusic();
         // RunAppClass.RunUser();
@@ -65,7 +65,8 @@ class DotNet
         // AppTryCatch.ZeroDevision();
         // AppTryCatch.CheckRange();
         // ArrayLinq.CheckEven();
-        ArrayLinq.GroupName();
+        // ArrayLinq.GroupName();
+        // RunLab.runLab7();
     }
 }
 
